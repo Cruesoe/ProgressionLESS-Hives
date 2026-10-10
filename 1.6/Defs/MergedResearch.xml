@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ResearchProjectDef MayRequire="oskarpotocki.vfe.insectoid2">
+    <defName>Ferny_Creeper</defName>
+    <label>hive growths</label>
+    <description>Grow the first hive structures: creepers, glow pods, deep heaters, jelly farms and thornspitters, along with hive walls, hive doors, hivestone walls and insect jelly walls.</description>
+    <baseCost>350</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tab>VanillaExpanded</tab>
+    <researchViewX>9.00</researchViewX>
+    <researchViewY>5.00</researchViewY>
+    <prerequisites>
+      <li>VFEI2_BasicHivetech</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef MayRequire="oskarpotocki.vfe.insectoid2">
+    <defName>Ferny_LargeGlowPod</defName>
+    <label>hive pods</label>
+    <description>Grow specialised pods: large glow pods, firefoam pods, heat pods, staticpods and thorn pods, plus freeze pods when the black hive is present.</description>
+    <baseCost>350</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>VanillaExpanded</tab>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>5.30</researchViewY>
+    <prerequisites>
+      <li>Ferny_Creeper</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef MayRequire="oskarpotocki.vfe.insectoid2">
+    <defName>Ferny_Jellyspreader</defName>
+    <label>creep spreading</label>
+    <description>Grow jellyspreaders and royal jellyspreaders that turn creep into insect jelly and royal jelly terrain, and tendril farms that seed creep with tendrilmoss.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>VanillaExpanded</tab>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>6.00</researchViewY>
+    <prerequisites>
+      <li>Ferny_Creeper</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef MayRequire="oskarpotocki.vfe.insectoid2">
+    <defName>Ferny_BurrowWalls</defName>
+    <label>hive walls</label>
+    <description>Build fire-resistant burrow walls and royal jelly walls, plus black jelly walls when the black hive is present.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>VanillaExpanded</tab>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>6.70</researchViewY>
+    <prerequisites>
+      <li>Ferny_Creeper</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef MayRequire="oskarpotocki.vfe.insectoid2">
+    <defName>Ferny_KemianHive</defName>
+    <label>geneline hives</label>
+    <description>Build artificial hives that spawn Kemian, Nuchadus and Xanides geneline insectoids, plus black hive insectoids when the black hive is present.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>VanillaExpanded</tab>
+    <researchViewX>9.00</researchViewX>
+    <researchViewY>5.70</researchViewY>
+    <prerequisites>
+      <li>VFEI2_StandardHivetech</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef MayRequire="oskarpotocki.vfe.insectoid2">
+    <defName>Ferny_JellyMorpher</defName>
+    <label>jelly morphers</label>
+    <description>Grow jelly morphers that refine insect jelly into royal insect jelly, plus black jelly morphers when the black hive is present.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>VanillaExpanded</tab>
+    <researchViewX>9.00</researchViewX>
+    <researchViewY>6.40</researchViewY>
+    <prerequisites>
+      <li>VFEI2_StandardHivetech</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef MayRequire="oskarpotocki.vfe.insectoid2">
+    <defName>Ferny_Vilelobber</defName>
+    <label>hive defenses</label>
+    <description>Raise vilelobber mounds that spit corrosive acid, plus black defilers and bio mech disruptors when the black hive is present.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>VanillaExpanded</tab>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>6.00</researchViewY>
+    <prerequisites>
+      <li>Ferny_KemianHive</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef MayRequire="oskarpotocki.vfe.insectoid2">
+    <defName>Ferny_Hivenode</defName>
+    <label>hive organs</label>
+    <description>Grow hivenodes that sustain nearby insectoid structures and petroglyphers that turn rock into hivestone, plus black creepers and foam belchers when the black hive is present.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>VanillaExpanded</tab>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>6.70</researchViewY>
+    <prerequisites>
+      <li>Ferny_KemianHive</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef MayRequire="oskarpotocki.vfe.insectoid2">
+    <defName>Ferny_GlowPodFormation</defName>
+    <label>glow pod spires</label>
+    <description>Grow dense glow pod formations and towering glow pod spires bright enough to grow crops.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>VanillaExpanded</tab>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>5.30</researchViewY>
+    <prerequisites>
+      <li>Ferny_LargeGlowPod</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

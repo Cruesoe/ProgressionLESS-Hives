@@ -1,0 +1,42 @@
+[h1]ProgressionLESS: Hives[/h1]
+[b]All the Progression goodness, less research.[/b]
+
+[i]This is a fork of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3783411735]Progression: Hives[/url] by ferny. Huge thanks to ferny for the original mod and all the Progression work this builds on. For a really good modpack, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585]The Progression Modpack[/url].[/i]
+
+[h2]Features[/h2]
+[list]
+[*]Overhauls hive research, so each Vanilla Factions Expanded - Insectoids 2 hive building has a place in the research tree.
+[*]VFE Insectoids 2's hivetech projects become the insectoid, sorne and chelis hives, and the sorne hive needs Electricity.
+[*]The geneline thumpers unlock with their geneline's hive.
+[/list]
+
+[h2]Why "LESS"?[/h2]
+Progression: Hives adds up to [b]34 research projects[/b] depending on your mods. This fork cuts that to [b]at most 9[/b]:
+[list]
+[*][b]Hive growths[/b] (Neolithic)
+[*][b]Hive pods[/b] (Industrial)
+[*][b]Creep spreading[/b] (Industrial)
+[*][b]Hive walls[/b] (Industrial)
+[*][b]Geneline hives[/b] (Industrial)
+[*][b]Jelly morphers[/b] (Industrial)
+[*][b]Hive defenses[/b] (Industrial)
+[*][b]Hive organs[/b] (Industrial)
+[*][b]Glow pod spires[/b] (Industrial)
+[/list]
+Everything else unlocks with the research it already builds on:
+[list]
+[*]Thornworm: [b]Chelis hive[/b]
+[/list]
+Everything stays in the same era, and still needs the other research it did before.
+
+[h2]Compatibility[/h2]
+Keeps all of the original's mod support:
+[list]
+[*]Vanilla Factions Expanded - Insectoids 2 (required)
+[*]Alpha Animals (black hive buildings)
+[*]Odyssey (burrow walls)
+[/list]
+
+[b]Replaces the original. Don't use both.[/b]
+
+[b]Switching mid-game isn't recommended.[/b] Many of the original's research projects are merged or removed, so swapping Progression: Hives for this fork in an existing save can lose research progress. Start a new game when you switch.

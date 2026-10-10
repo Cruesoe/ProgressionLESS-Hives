@@ -74,7 +74,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]/description</xpath>
 		<value>
-			<description>Build artificial hives that spawn Chelis geneline insectoids.</description>
+			<description>Build artificial hives that spawn Chelis geneline insectoids, and raise thornworm mounds that unleash rapidly growing chitin thorns.</description>
 		</value>
 	</Operation>
 
@@ -88,7 +88,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="GlowPod"]/researchPrerequisites/li[text()="VFEI2_BasicHivetech"]</xpath>
 		<value>
-			<li>Ferny_GlowPod</li>
+			<li>Ferny_Creeper</li>
 		</value>
 	</Operation>
 
@@ -102,49 +102,49 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI2_DeepHeater"]/researchPrerequisites/li[text()="VFEI2_BasicHivetech"]</xpath>
 		<value>
-			<li>Ferny_DeepHeater</li>
+			<li>Ferny_Creeper</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI_HiveWall"]/researchPrerequisites/li[text()="VFEI2_BasicHivetech"]</xpath>
 		<value>
-			<li>Ferny_HiveStructure</li>
+			<li>Ferny_Creeper</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI2_InsectJellyWall"]/researchPrerequisites/li[text()="VFEI2_BasicHivetech"]</xpath>
 		<value>
-			<li>Ferny_HiveStructure</li>
+			<li>Ferny_Creeper</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI_HivestoneWall"]/researchPrerequisites/li[text()="VFEI2_BasicHivetech"]</xpath>
 		<value>
-			<li>Ferny_HiveStructure</li>
+			<li>Ferny_Creeper</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[@Name="VFEI2_BuildingBaseDoor"]/researchPrerequisites/li[text()="VFEI2_BasicHivetech"]</xpath>
 		<value>
-			<li>Ferny_HiveStructure</li>
+			<li>Ferny_Creeper</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI2_JellyFarm"]/researchPrerequisites/li[text()="VFEI2_BasicHivetech"]</xpath>
 		<value>
-			<li>Ferny_JellyFarm</li>
+			<li>Ferny_Creeper</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI2_Thornspitter"]/researchPrerequisites/li[text()="VFEI2_BasicHivetech"]</xpath>
 		<value>
-			<li>Ferny_Thornspitter</li>
+			<li>Ferny_Creeper</li>
 		</value>
 	</Operation>
 
@@ -165,14 +165,14 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI2_FoamPod"]/researchPrerequisites/li[text()="VFEI2_StandardHivetech"]</xpath>
 		<value>
-			<li>Ferny_FoamPod</li>
+			<li>Ferny_LargeGlowPod</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI2_HeatPod"]/researchPrerequisites/li[text()="VFEI2_StandardHivetech"]</xpath>
 		<value>
-			<li>Ferny_HeatPod</li>
+			<li>Ferny_LargeGlowPod</li>
 		</value>
 	</Operation>
 
@@ -186,21 +186,21 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI2_TendrilFarm"]/researchPrerequisites/li[text()="VFEI2_StandardHivetech"]</xpath>
 		<value>
-			<li>Ferny_TendrilFarm</li>
+			<li>Ferny_Jellyspreader</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI2_Thornpod"]/researchPrerequisites/li[text()="VFEI2_StandardHivetech"]</xpath>
 		<value>
-			<li>Ferny_ThornPod</li>
+			<li>Ferny_LargeGlowPod</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI2_ArtificialNuchadusHive"]/researchPrerequisites/li[text()="VFEI2_ExoticHivetech"]</xpath>
 		<value>
-			<li>Ferny_NuchadusHive</li>
+			<li>Ferny_KemianHive</li>
 		</value>
 	</Operation>
 
@@ -214,14 +214,14 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI2_ArtificialXanidesHive"]/researchPrerequisites/li[text()="VFEI2_ExoticHivetech"]</xpath>
 		<value>
-			<li>Ferny_XanidesHive</li>
+			<li>Ferny_KemianHive</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI2_GlowPodSpire"]/researchPrerequisites/li[text()="VFEI2_ExoticHivetech"]</xpath>
 		<value>
-			<li>Ferny_GlowPodSpire</li>
+			<li>Ferny_GlowPodFormation</li>
 		</value>
 	</Operation>
 
@@ -242,14 +242,14 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI2_Petroglypher"]/researchPrerequisites/li[text()="VFEI2_ExoticHivetech"]</xpath>
 		<value>
-			<li>Ferny_Petroglypher</li>
+			<li>Ferny_Hivenode</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI2_StaticPod"]/researchPrerequisites/li[text()="VFEI2_ExoticHivetech"]</xpath>
 		<value>
-			<li>Ferny_StaticPod</li>
+			<li>Ferny_LargeGlowPod</li>
 		</value>
 	</Operation>
 
@@ -275,7 +275,7 @@
 		<xpath>Defs/ThingDef[defName="VFEI2_Thumper_Silverfish"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_XanidesHive</li>
+				<li>Ferny_KemianHive</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -293,7 +293,7 @@
 		<xpath>Defs/ThingDef[defName="VFEI2_Thumper_Titantick"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_NuchadusHive</li>
+				<li>Ferny_KemianHive</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -302,7 +302,8 @@
 		<xpath>Defs/ThingDef[defName="VFEI2_Thornworm"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_Thornworm</li>
+				<li>VFEI2_ExoticHivetech</li>
+				<li>Ferny_Creeper</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -312,6 +313,7 @@
 		<value>
 			<researchPrerequisites>
 				<li>Ferny_Vilelobber</li>
+				<li>Ferny_Creeper</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -319,14 +321,14 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI2_RoyalJellyspreader"]/researchPrerequisites/li[text()="VFEI2_ExoticHivetech"]</xpath>
 		<value>
-			<li>Ferny_RoyalJellyspreader</li>
+			<li>Ferny_Jellyspreader</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="VFEI2_RoyalJellyWall"]/researchPrerequisites/li[text()="VFEI2_ExoticHivetech"]</xpath>
 		<value>
-			<li>Ferny_RoyalJellyWall</li>
+			<li>Ferny_BurrowWalls</li>
 		</value>
 	</Operation>
 
