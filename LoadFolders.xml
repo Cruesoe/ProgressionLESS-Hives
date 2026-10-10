@@ -3,5 +3,6 @@
     <li>/</li>
     <li>1.6</li>
     <li IfModActive="OskarPotocki.VFE.Insectoid2">1.6/Mods and Shit/VFE Insectoids 2</li>
+    <li IfModActiveAll="OskarPotocki.VFE.Insectoid2,sarg.alphaanimals">1.6/Mods and Shit/Alpha Animals</li>
   </v1.6>
 </loadFolders>

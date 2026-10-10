@@ -86,6 +86,20 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]/researchViewX</xpath>
+		<value>
+			<researchViewX>10.00</researchViewX>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="VFEI2_ExoticHivetech"]/researchViewY</xpath>
+		<value>
+			<researchViewY>7.40</researchViewY>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="GlowPod"]/researchPrerequisites/li[text()="VFEI2_BasicHivetech"]</xpath>
 		<value>
 			<li>Ferny_Creeper</li>

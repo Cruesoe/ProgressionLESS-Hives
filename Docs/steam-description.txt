@@ -7,7 +7,7 @@
 [list]
 [*]Overhauls hive research, so each Vanilla Factions Expanded - Insectoids 2 hive building has a place in the research tree.
 [*]VFE Insectoids 2's hivetech projects become the insectoid, sorne and chelis hives, and the sorne hive needs Electricity.
-[*]The geneline thumpers unlock with their geneline's hive.
+[*]The empress thumper unlocks with the Sorne hive, the teramantis thumper with the Chelis hive, and the gigamite, silverfish, titantick and black empress thumpers with Geneline hives.
 [/list]
 
 [h2]Why "LESS"?[/h2]
