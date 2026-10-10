@@ -1,6 +1,7 @@
 <loadFolders>
   <v1.6>
     <li>/</li>
-    <li IfModActive="OskarPotocki.VFE.Insectoid2">Mods and Shit/VFE Insectoids 2</li>
+    <li>1.6</li>
+    <li IfModActive="OskarPotocki.VFE.Insectoid2">1.6/Mods and Shit/VFE Insectoids 2</li>
   </v1.6>
 </loadFolders>
