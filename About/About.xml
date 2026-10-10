@@ -3,6 +3,7 @@
   <name>ProgressionLESS: Hives</name>
   <author>Cruesoe</author>
   <packageId>cruesoe.progressionlesshives</packageId>
+  <modVersion>261010</modVersion>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
