@@ -367,4 +367,121 @@
 		<researchViewY>6.25</researchViewY>
 	</ResearchProjectDef>
 
+	<ResearchProjectDef MayRequire="sarg.alphaanimals">
+		<defName>Ferny_BlackHive</defName>
+		<label>black hive</label>
+		<tab>VanillaExpanded</tab>
+		<description>Build artificial hives that spawn black hive insectoids.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>VFEI2_StandardHivetech</li>
+		</prerequisites>
+		<researchViewX>9.00</researchViewX>
+		<researchViewY>7.30</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef MayRequire="sarg.alphaanimals">
+		<defName>Ferny_BioMechDisruptor</defName>
+		<label>bio mech disruptor</label>
+		<tab>VanillaExpanded</tab>
+		<description>Grow bio mech disruptors that weaken mechanoids in their radius.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Ferny_BlackHive</li>
+		</prerequisites>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>7.30</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef MayRequire="sarg.alphaanimals">
+		<defName>Ferny_BlackCreeper</defName>
+		<label>black creeper</label>
+		<tab>VanillaExpanded</tab>
+		<description>Grow black creepers that convert existing creep into black creep.</description>
+		<baseCost>350</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Ferny_BlackHive</li>
+			<li>Ferny_Creeper</li>
+		</prerequisites>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>7.75</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef MayRequire="sarg.alphaanimals">
+		<defName>Ferny_BlackDefiler</defName>
+		<label>black defiler</label>
+		<tab>VanillaExpanded</tab>
+		<description>Raise black defiler mounds that spit toxic black hive bile.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Ferny_BlackHive</li>
+			<li>Ferny_Thornspitter</li>
+		</prerequisites>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>8.20</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef MayRequire="sarg.alphaanimals">
+		<defName>Ferny_BlackJellyMorpher</defName>
+		<label>black jelly morpher</label>
+		<tab>VanillaExpanded</tab>
+		<description>Grow black jelly morphers that refine insect jelly into black insect jelly.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Ferny_BlackHive</li>
+			<li>Ferny_JellyMorpher</li>
+		</prerequisites>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>5.50</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef MayRequire="sarg.alphaanimals">
+		<defName>Ferny_BlackJellyWall</defName>
+		<label>black jelly wall</label>
+		<tab>VanillaExpanded</tab>
+		<description>Build hardened walls from black insect jelly.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Ferny_BlackHive</li>
+			<li>Ferny_HiveStructure</li>
+		</prerequisites>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>7.00</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef MayRequire="sarg.alphaanimals">
+		<defName>Ferny_FoamBelcher</defName>
+		<label>foam belcher</label>
+		<tab>VanillaExpanded</tab>
+		<description>Grow foam belchers that spray fire-retardant foam in a cone.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Ferny_BlackHive</li>
+			<li>Ferny_FoamPod</li>
+		</prerequisites>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>4.40</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef MayRequire="sarg.alphaanimals">
+		<defName>Ferny_FreezePod</defName>
+		<label>freeze pod</label>
+		<tab>VanillaExpanded</tab>
+		<description>Grow cold-emitting freeze pods from black hive bioforms.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Ferny_GlowPod</li>
+		</prerequisites>
+		<researchViewX>9.00</researchViewX>
+		<researchViewY>5.75</researchViewY>
+	</ResearchProjectDef>
+
 </Defs>
