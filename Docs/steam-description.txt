@@ -1,4 +1,3 @@
-[h1]ProgressionLESS: Hives[/h1]
 [b]All the Progression goodness, less research.[/b]
 
 [i]This is a fork of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3783411735]Progression: Hives[/url] by ferny. Huge thanks to ferny for the original mod and all the Progression work this builds on. For a really good modpack, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585]The Progression Modpack[/url].[/i]
